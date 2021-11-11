@@ -308,7 +308,7 @@ section .title::after {
 }
 
 .portfolio .title::after {
-  content: "most recent";
+  content: "selected works";
 }
 
 .teams .carousel .card,
@@ -461,9 +461,15 @@ ul {
   list-style: none;
 }
 
-#aboutDesc li:before {
+#aboutDesc p {
   content: "\00BB";
   color: #9a9483;
+}
+
+#aboutDesc span {
+  font-size: 19px;
+  color: #9a9483;
+  font-weight: bold;
 }
 
 /* services */

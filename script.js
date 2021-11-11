@@ -34,9 +34,9 @@ $(document).ready(function () {
   });
 
   var typed = new Typed(".typing-2", {
-    strings: ["Motivated", "Passionate", "Organized", "Competent", "a Learner"],
-    typeSpeed: 200,
-    backSpeed: 100,
+    strings: ["design,", "test,", "sometimes code"],
+    typeSpeed: 300,
+    backSpeed: 200,
     loop: true,
   });
 

@@ -159,8 +159,9 @@ section .title,
 .teams,
 .contact,
 footer,
-.portfolio {
-  font-family: "Ubuntu", sans-serif;
+.portfolio,
+.about {
+  font-family: "Poppins", sans-serif;
 }
 
 .about .about-content,
@@ -202,9 +203,9 @@ section .title::after {
 
 /* about section styling */
 
-.about {
+/* .about {
   font-family: "Poppins", sans-serif;
-}
+} */
 
 .about .title::after {
   content: "who i am";
@@ -295,22 +296,19 @@ section .title::after {
 */
 
 /* teams and portfolio styling */
+
+/* .teams,
 .portfolio {
   color: #111;
   background: #fff;
-}
-
-.teams {
-  color: #111;
-  background: #fff;
-}
+} */
 
 .teams .title::after {
   content: "my fellow saying";
 }
 
 .portfolio .title::after {
-  content: "most recent work";
+  content: "most recent";
 }
 
 .teams .carousel .card,
@@ -551,7 +549,7 @@ ul {
   }
 }
 @media (max-width: 1104px) {
-  about .about-content .left img {
+  .about .about-content .left img {
     height: 350px;
     width: 350px;
   }
@@ -605,13 +603,14 @@ ul {
     font-size: 23px;
     padding: 10px 30px;
   }
-
-  .about .about-content .column {
-    width: 50%;
-  }
   .max-width {
     max-width: 800px;
   }
+
+  .about .about-content .column {
+    width: 100%;
+  }
+
   .about .about-content .left {
     display: flex;
     justify-content: center;
@@ -621,7 +620,7 @@ ul {
   .about .about-content .right {
     flex: 100%;
   }
-  .projects .projects-content .card {
+  .portfolio .projects-content .card {
     width: calc(50% -10px);
     margin-bottom: 20px;
   }
